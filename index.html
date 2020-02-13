@@ -41,16 +41,16 @@
 			padding: 0 10px;
 		}
 		#page1 {
-			background-image: url(images/poster01.jpg);
+			background-image: url(images/poster01.png);
 		}
 		#page2 {
-			background-image: url(images/poster02.jpg);
+			background-image: url(images/poster02.png);
 		}
 		#page3 {
-			background-image: url(images/poster01.jpg);
+			/*background-image: url(images/insideout_30.mp4);*/
 		}
 		#page4 {
-			background-image: url(images/poster01.jpg);
+			background-image: url(images/);
 		}
 		.page {
 			background-repeat: no-repeat;
@@ -74,7 +74,11 @@
 	<div id="fullpage">
 		<div class="section page" id="page1" data-anchor="1st"></div>
 		<div class="section page" id="page2" data-anchor="2st"></div>
-		<div class="section page" id="page3" data-anchor="3st"></div>
+		<div class="section page" id="page3" data-anchor="3st">
+			<video loop="loop" muted="muted" controls>
+			<source src="images/insideout_30.mp4" type="video/mp4">
+			</video>
+		</div>
 		<div class="section page" id="page4" data-anchor="4st"></div>
 	</div>
 </body>
