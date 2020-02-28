@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/fullpage.css">
 	<link rel="stylesheet" href="css/jquery.bxslider.css">
+	<link rel="stylesheet" href="css/style.css">
 	<script src="js/jquery-3.1.1.min.js"></script>
 	<script src="js/jquery.bxslider.js"></script>
 	<script src="js/jquery.fullPage.js"></script>
@@ -19,48 +20,6 @@
 			});
 		});
 	</script>
-	<style>
-		
-		#navTop {
-			position: fixed;
-			z-index: 1;
-			width: 100%;
-			background-color: rgba(255,255,255,0.3);
-			padding-right: 10px;
-		}
-		#navTop ul {
-			float: right;
-		}
-		#navTop ul li {
-			float: left;
-		}
-		#navTop ul li a {
-			display: block;
-			line-height: 50px;
-			text-align: center;
-			padding: 0 10px;
-		}
-		#page1 {
-			background-image: url(images/poster01.png);
-		}
-		#page2 {
-			background-image: url(images/poster02.png);
-		}
-		#page3 {
-			/*background-image: url(images/insideout_30.mp4);*/
-		}
-		#page4 {
-			background-image: url(images/);
-		}
-		.page {
-			background-repeat: no-repeat;
-			background-position: center;
-			background-size: cover;
-		}
-		#navTop .active {
-			background-color: #fff;
-		}
-	</style>
 </head>
 <body>
 	<nav id="navTop" class="clearfix">
@@ -72,7 +31,9 @@
 		</ul>
 	</nav>
 	<div id="fullpage">
-		<div class="section page" id="page1" data-anchor="1st"></div>
+		<div class="section page" id="page1" data-anchor="1st">
+			<img src="images/1_bgImg.png" alt="">
+		</div>
 		<div class="section page" id="page2" data-anchor="2st"></div>
 		<div class="section page" id="page3" data-anchor="3st">
 			<video loop="loop" muted="muted" controls>
