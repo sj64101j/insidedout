@@ -22,9 +22,23 @@
 }
 #page1 {
 	background-image: url(../images/bgi.png);
+	position: relative;
 }
 #page1 img {
 	margin: 0 auto;
+	position: absolute;
+}
+#page1 img:nth-child(1){
+	width: 605px;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#page1 img:nth-child(2){
+	width: 550px;
+	top: 30px;
+	left: 50%;
+	transform: translateX(-50%);
 }
 #page2 {
 	background-image: url(images/poster02.png);
@@ -42,4 +56,28 @@
 }
 #navTop .active {
 	background-color: #fff;
+}
+
+
+#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span {
+    height: 42px;
+    width: 124px;
+    margin: -20px 0 0 -6px;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    height: 42px;
+    width: 42px;
+    border: 0;
+    background: rgba(255,255,255,0.4);
+    left: 50%;
+    top: 50%;
+    margin: -20px 0 0 -2px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
 }
