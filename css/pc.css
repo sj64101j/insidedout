@@ -35,13 +35,53 @@
 	transform: translateX(-50%);
 }
 #page1 img:nth-child(2){
-	width: 550px;
+	width: 500px;
 	top: 30px;
 	left: 50%;
 	transform: translateX(-50%);
 }
 #page2 {
-	background-image: url(images/poster02.png);
+	background-image: url(../images/bgi.png);
+	position: relative;
+}
+#page2 video {
+	width: 790px;
+	padding-top: 80px;
+	margin-left: 50px;
+}
+#page2 img {
+	position: absolute;
+	top: 50%; right: 50%;
+}
+#page2 img.logo01 {
+	margin-right: -570px;
+	margin-top: -400px;
+}
+#page2 img.icon01{
+	margin-right: 630px;
+	width: 310px;
+	margin-top: 100px;
+}
+#page2 img.icon02 {
+	margin-right: -900px;
+	margin-top: -30px;
+	width: 400px;
+}
+
+#page2 .story_txt {
+	position: absolute;
+	right: 50%;
+	margin-right: -730px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+#page2 .story_txt p {
+	color: #fff;
+	font-family: 'GodoB';
+	line-height: 30px;
+	font-size: 18px;
+	font-weight: bold;
+
 }
 #page3 {
 	/*background-image: url(images/insideout_30.mp4);*/
@@ -59,10 +99,43 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#fp-nav ul li, .fp-slidesNav ul li {
+    display: block;
+    width: 42px;
+    height: 42px;
+    margin: 7px;
+    position: relative;
+}
+
 #fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span {
     height: 42px;
     width: 124px;
-    margin: -20px 0 0 -6px;
+    margin: -20px -6px 0 0;
+    border-radius: 42px;
+}
+
+#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span {
+    height: 42px;
+    width: 124px;
+    margin: -20px -6px 0 0;
 }
 
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
@@ -73,11 +146,16 @@
     width: 42px;
     border: 0;
     background: rgba(255,255,255,0.4);
-    left: 50%;
+    right: 50%;
     top: 50%;
-    margin: -20px 0 0 -2px;
+    margin: -20px -2px 0 0;
     -webkit-transition: all 0.1s ease-in-out;
     -moz-transition: all 0.1s ease-in-out;
     -o-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
+	background-image: url(../images/happy_ball.png);
+	background-size: 32px;
+	background-position: center;
+	background-repeat: no-repeat;
 }
+
