@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>fullpage</title>
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/fullpage.css">
 	<link rel="stylesheet" href="css/jquery.bxslider.css">
@@ -11,6 +12,7 @@
 	<script src="js/jquery-3.1.1.min.js"></script>
 	<script src="js/jquery.bxslider.js"></script>
 	<script src="js/jquery.fullPage.js"></script>
+	<script src="js/wow.js"></script>
 	<script>
 		$(document).ready(function(){
 			$("#fullpage").fullpage({
@@ -31,6 +33,13 @@
 					}else {
 						$("#onView2").removeClass("move2");
 					}
+					
+					if(index == 4){
+						//$(".full").addClass("active");
+					}else {
+						//$(".full").removeClass("active");
+					}
+					
 				}
 			});
 			$(window).resize(function(){
@@ -78,6 +87,7 @@
 						하루에도 몇번씩 변하는 감정의 비밀이 밝혀진다!
 					</p>
 				</div>
+				<a href="#">MORE</a>
 			</div>
 			<img src="images/insideout_logo.mp4" alt="" class="logo01">
 			<img src="images/bongbong.png" alt="" class="icon01">
@@ -88,37 +98,148 @@
 				<li>
 					<img src="images/fear02_2.png" alt="" class="character01">
 					<img src="images/fear02_2bl.png" alt="" class="character01_1">
+					<div class="intro1">
+						<h2>소심</h2>
+						<a href="#">설명보기 ☞</a>
+					</div>
 				</li>
 				<li>
 					<img src="images/angry01_2.png" alt="" class="character02">
 					<img src="images/angry01_2bl.png" alt="" class="character02_1">
+					<div class="intro1">
+						<h2>기</h2>
+						<a href="#">설명보기 ☞</a>
+					</div>
 				</li>
 				<li>
 					<img src="images/happy01_2.png" alt="" class="character03">
 					<img src="images/happy01_2bl.png" alt="" class="character03_1">
+					<div class="intro1">
+						<h2>버럭</h2>
+						<a href="#">설명보기 ☞</a>
+					</div>
 				</li>
 				<li>
 					<img src="images/disgust01_2.png" alt="" class="character04">
 					<img src="images/disgust01_2bl.png" alt="" class="character04_1">
+					<div class="intro1">
+						<h2>까칠</h2>
+						<a href="#">설명보기 ☞</a>
+					</div>
 				</li>
 				<li>
 					<img src="images/sad01_2.png" alt="" class="character05">
 					<img src="images/sad01_2bl.png" alt="" class="character05_1">
+					<div class="intro5">
+						<h2>슬픔</h2>
+						<a href="#">설명보기 ☞</a>
+					</div>
 				</li>
 			</ul>
 		</div>
 		<div class="section page" id="page4" data-anchor="4st">
 			<div class="first">
-				<img src="images/sad02.png" alt="">
-				div.
+				<img src="images/sad02.png" alt="" class="sadC">
+				<div class="tears1">
+					<ul>
+						<li><img src="images/01.png" alt=""
+						style="width: 26px; height: 12px;" class="tear1"></li>
+						<li><img src="images/02.png" alt=""
+						style="width: 23px; height: 12px;" class="tear2"></li>
+						<li><img src="images/03.png" alt=""
+						style="width: 23px; height: 15px;" class="tear1"></li>
+						<li><img src="images/04.png" alt=""
+						style="width: 17px; height: 19px;" class="tear2"></li>
+						<li><img src="images/05.png" alt=""
+						style="width: 13px; height: 22px;" class="tear1"></li>
+						<li><img src="images/06.png" alt=""
+						style="width: 12px; height: 23px;" class="tear2"></li>
+						<li><img src="images/07.png" alt=""
+						style="width: 12px; height: 23px;" class="tear1"></li>
+						<li><img src="images/08.png" alt="" 
+						style="width: 12px; height: 23px;" class="tear2"></li>
+						<li><img src="images/09.png" alt="" 
+						style="width: 12px; height: 23px;" class="tear1"></li>
+						<li><img src="images/10.png" alt="" 
+						style="width: 12px; height: 23px;" class="tear2"></li>
+						<li><img src="images/11.png" alt="" 
+						style="width: 12px; height: 23px;" class="tear1"></li>
+						<li><img src="images/12.png" alt="" 
+						style="width: 12px; height: 23px;" class="tear2"></li>
+						<li><img src="images/13.png" alt="" 
+						style="width: 12px; height: 23px;" class="tear1"></li>
+					</ul>
+				</div>
+				<div class="tears2">
+					<ul>
+						<li><img src="images/14.png" alt=""
+						style="width: 26px; height: 12px;" class="tear1"></li>
+						<li><img src="images/15.png" alt=""
+						style="width: 23px; height: 12px;" class="tear2"></li>
+						<li><img src="images/16.png" alt=""
+						style="width: 23px; height: 15px;" class="tear1"></li>
+						<li><img src="images/17.png" alt=""
+						style="width: 17px; height: 19px;" class="tear2"></li>
+						<li><img src="images/18.png" alt=""
+						style="width: 13px; height: 22px;" class="tear1"></li>
+						<li><img src="images/19.png" alt=""
+						style="width: 12px; height: 23px;" class="tear2"></li>
+						<li><img src="images/20.png" alt=""
+						style="width: 12px; height: 23px;" class="tear1"></li>
+						<li><img src="images/21.png" alt=""
+						style="width: 12px; height: 23px;" class="tear2"></li>
+						<li><img src="images/22.png" alt=""
+						style="width: 12px; height: 23px;" class="tear1"></li>
+						<li><img src="images/23.png" alt=""
+						style="width: 12px; height: 23px;" class="tear2"></li>
+						<li><img src="images/24.png" alt=""
+						style="width: 12px; height: 23px;" class="tear1"></li>
+						<li><img src="images/25.png" alt=""
+						style="width: 12px; height: 23px;" class="tear2"></li>
+						<li><img src="images/26.png" alt=""
+						style="width: 12px; height: 23px;" class="tear1"></li>
+					</ul>
+				</div>
+				<div class="tears3"></div>
+				<div class="tears4"></div>
 			</div>
 			<div class="next">
-				
+				<div class="full active">
+					<div class="fullimg clearfix">
+						<img src="images/bg_img.png" alt="">
+						<img src="images/bg_img2.png" alt="">
+					</div>
+					<div class="line"></div>
+					<div class="DVD clearfix wow bounceInUp" data-wow-delay="4s">
+						<h2>Ultimate Collector’s Edition: <br> 4K Ultra HD + Blu-ray™ + Digital</h2>
+						<div class="DVDWrap">
+							<img src="images/dvd01.png" alt="">
+							<ul class="clearfix">
+								<li><a href="#"><img src="images/dvd02.png" alt=""></a></li>
+								<li><a href="#"><img src="images/dvd03.png" alt=""></a></li>
+								<li><a href="#"><img src="images/dvd04.png" alt=""></a></li>
+								<li><a href="#"><img src="images/dvd05.png" alt=""></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="game">
+						<h2>Download and print <br> these fun Inside Out active!</h2>
+						<div class="gameWrap">
+							<ul>
+								<li><a href="#"><img src="images/game01.png" alt=""></a></li>
+								<li><a href="#"><img src="images/game02.png" alt=""></a></li>
+								<li><a href="#"><img src="images/game03.png" alt=""></a></li>
+								<li><a href="#"><img src="images/game04.png" alt=""></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<img src="images/page4_img.png" alt="" class="page4_img">
 			</div>
-		</div>
-		<div class="section page" id="page4" data-anchor="5st">
-			
-		</div>
 	</div>
+	<div class="section page fp-auto-height" id="page5" data-anchor="5st">
+		<div class="footer" style="height: 300px; background: skyblue"></div>
+	</div>
+</div>
 </body>
 </html>
