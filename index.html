@@ -33,11 +33,18 @@
 					}else {
 						$("#onView2").removeClass("move2");
 					}
+					if(index != 3){
+						$(".introWrap1").removeClass("active");
+						$(".introWrap2").removeClass("active");
+						$(".introWrap3").removeClass("active");
+						$(".introWrap4").removeClass("active");
+						$(".introWrap5").removeClass("active");
+					}
 					
 					if(index == 4){
-						//$(".full").addClass("active");
+						$(".full").addClass("active");
 					}else {
-						//$(".full").removeClass("active");
+						$(".full").removeClass("active");
 					}
 					
 				}
@@ -53,6 +60,21 @@
 			//$("대상").height(크기값)
 			$(".sliderWrap").bxSlider({
 				pager:false
+			});
+			$(".introWrap1").click(function(){
+				$(".introWrap1").addClass("active")
+			});
+			$(".introWrap2").click(function(){
+				$(".introWrap2").addClass("active")
+			});
+			$(".introWrap3").click(function(){
+				$(".introWrap3").addClass("active")
+			});
+			$(".introWrap4").click(function(){
+				$(".introWrap4").addClass("active")
+			});
+			$(".introWrap5").click(function(){
+				$(".introWrap5").addClass("active")
 			});
 		});
 	</script>
@@ -97,42 +119,52 @@
 			<ul>
 				<li>
 					<img src="images/fear02_2.png" alt="" class="character01">
-					<img src="images/fear02_2bl.png" alt="" class="character01_1">
-					<div class="intro1">
-						<h2>소심</h2>
-						<a href="#">설명보기 ☞</a>
+					<div class="introWrap1">
+						<img src="images/fear02_2bl.png" alt="" class="character01_1">
+						<div class="intro1">
+							<h2>소심</h2>
+							<a href="#">설명보기 ☞</a>
+						</div>
 					</div>
 				</li>
 				<li>
 					<img src="images/angry01_2.png" alt="" class="character02">
-					<img src="images/angry01_2bl.png" alt="" class="character02_1">
-					<div class="intro1">
-						<h2>기</h2>
-						<a href="#">설명보기 ☞</a>
+					<div class="introWrap2">
+						<img src="images/angry01_2bl.png" alt="" class="character02_1">
+						<div class="intro2">
+							<h2>버럭</h2>
+							<a href="#">설명보기 ☞</a>
+						</div>
 					</div>
 				</li>
 				<li>
 					<img src="images/happy01_2.png" alt="" class="character03">
-					<img src="images/happy01_2bl.png" alt="" class="character03_1">
-					<div class="intro1">
-						<h2>버럭</h2>
-						<a href="#">설명보기 ☞</a>
+					<div class="introWrap3">
+						<img src="images/happy01_2bl.png" alt="" class="character03_1">
+						<div class="intro3">
+							<h2>기쁨</h2>
+							<a href="#">설명보기 ☞</a>
+						</div>
 					</div>
 				</li>
 				<li>
 					<img src="images/disgust01_2.png" alt="" class="character04">
-					<img src="images/disgust01_2bl.png" alt="" class="character04_1">
-					<div class="intro1">
-						<h2>까칠</h2>
-						<a href="#">설명보기 ☞</a>
+					<div class="introWrap4">
+						<img src="images/disgust01_2bl.png" alt="" class="character04_1">
+						<div class="intro4">
+							<h2>까칠</h2>
+							<a href="#">설명보기 ☞</a>
+						</div>
 					</div>
 				</li>
 				<li>
 					<img src="images/sad01_2.png" alt="" class="character05">
-					<img src="images/sad01_2bl.png" alt="" class="character05_1">
-					<div class="intro5">
-						<h2>슬픔</h2>
-						<a href="#">설명보기 ☞</a>
+					<div class="introWrap5">
+						<img src="images/sad01_2bl.png" alt="" class="character05_1">
+						<div class="intro5">
+							<h2>슬픔</h2>
+							<a href="#">설명보기 ☞</a>
+						</div>
 					</div>
 				</li>
 			</ul>
@@ -209,32 +241,34 @@
 						<img src="images/bg_img.png" alt="">
 						<img src="images/bg_img2.png" alt="">
 					</div>
-					<div class="line"></div>
-					<div class="DVD clearfix wow bounceInUp" data-wow-delay="4s">
-						<h2>Ultimate Collector’s Edition: <br> 4K Ultra HD + Blu-ray™ + Digital</h2>
-						<div class="DVDWrap">
-							<img src="images/dvd01.png" alt="">
-							<ul class="clearfix">
-								<li><a href="#"><img src="images/dvd02.png" alt=""></a></li>
-								<li><a href="#"><img src="images/dvd03.png" alt=""></a></li>
-								<li><a href="#"><img src="images/dvd04.png" alt=""></a></li>
-								<li><a href="#"><img src="images/dvd05.png" alt=""></a></li>
-							</ul>
+					<div class="nextWrap">
+						<div class="line"></div>
+						<div class="DVD clearfix wow bounceInUp" data-wow-delay="4s">
+							<h2>Ultimate Collector’s Edition: <br> 4K Ultra HD + Blu-ray™ + Digital</h2>
+							<div class="DVDWrap">
+								<img src="images/dvd01.png" alt="">
+								<ul class="clearfix">
+									<li><a href="#"><img src="images/dvd02.png" alt=""></a></li>
+									<li><a href="#"><img src="images/dvd03.png" alt=""></a></li>
+									<li><a href="#"><img src="images/dvd04.png" alt=""></a></li>
+									<li><a href="#"><img src="images/dvd05.png" alt=""></a></li>
+								</ul>
+							</div>
 						</div>
-					</div>
-					<div class="game">
-						<h2>Download and print <br> these fun Inside Out active!</h2>
-						<div class="gameWrap">
-							<ul>
-								<li><a href="#"><img src="images/game01.png" alt=""></a></li>
-								<li><a href="#"><img src="images/game02.png" alt=""></a></li>
-								<li><a href="#"><img src="images/game03.png" alt=""></a></li>
-								<li><a href="#"><img src="images/game04.png" alt=""></a></li>
-							</ul>
+						<div class="game">
+							<h2>Download and print <br> these fun Inside Out active!</h2>
+							<div class="gameWrap">
+								<ul>
+									<li><a href="#"><img src="images/game01.png" alt=""></a></li>
+									<li><a href="#"><img src="images/game02.png" alt=""></a></li>
+									<li><a href="#"><img src="images/game03.png" alt=""></a></li>
+									<li><a href="#"><img src="images/game04.png" alt=""></a></li>
+								</ul>
+							</div>
 						</div>
+										</div>
+										<img src="images/page4_img.png" alt="" class="page4_img">
 					</div>
-				</div>
-				<img src="images/page4_img.png" alt="" class="page4_img">
 			</div>
 	</div>
 	<div class="section page fp-auto-height" id="page5" data-anchor="5st">
