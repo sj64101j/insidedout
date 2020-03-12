@@ -17,11 +17,11 @@
 }
 #navTop ul li a {
 	display: block;
-	line-height: 50px;
+	line-height: 40px;
 	text-align: center;
 	padding: 0 10px;
 	color: #fff;
-	font-size:28px;
+	font-size:20px;
 }
 .page {
 	background-repeat: no-repeat;
@@ -42,14 +42,14 @@
 	position: absolute;
 }
 #page1 img:nth-child(1){
-	width: 550px;
+	width: 350px;
 	bottom: 0;
 	left: 50%;
 	transform: translateX(-50%);
 }
 #page1 img:nth-child(2){
-	width: 500px;
-	top: 200px;
+	width: 330px;
+	top: 80px;
 	left: 50%;
 	transform: translateX(-50%);
 }
@@ -58,27 +58,27 @@
 	position: relative;
 }
 #page2 .bg {
-	width: 500px !important;
-	height: 900px !important;
+	width: 320px !important;
+	height: 560px !important;
 }
 #page2 .bg video {
-	width: 450px;
-	padding-top: 25px;
-	margin-left: 25px;
+	width: 290px;
+	padding-top: 15px;
+	margin-left: 15px;
 }
 #page2 .bg a {;
 	display: block;
 	text-align: center;
-	width: 150px;
+	width: 100px;
 	border: 1px solid #fff;
-	line-height: 40px;
+	line-height: 35px;
 	color: white;
 	border-radius: 10px;
 	margin: 0 auto;
 	transition: .3s;
 	font-size: 18px;
-	position: absolute; top: 50%; right: 50%;
-	margin-top: 160px; margin-right: -500px;
+	position: absolute; top: 50%; left: 50%;
+	margin-top: 170px; margin-left: -15px;
 }
 #page2 .bg a:hover {
 	background-color: rgba(255,255,255,1);
@@ -89,32 +89,31 @@
 }
 #page2 img.logo01 {
 	left: 50%; top: 50%;
-	margin-left: 60px; margin-top: -120px;
-	width: 150px;
+	margin-left: 45px; margin-top: -85px;
+	width: 100px;
 }
 #page2 img.icon01{
-	width: 250px;
+	width: 160px;
 	bottom: 0;left: 0;
 }
 #page2 img.icon02 {
-	width: 250px;
+	width: 200px;
 	top: 50%; left: 50%;
-	margin-left: 70px;
-	margin-top: 230px;
+	margin-top: 105px; margin-left: 30px;
 }
 
 #page2 .story_txt {
 	position: absolute;
-	width: 380px;
+	width: 300px;
 	left: 50%;
-	top: 50%; margin-top: -20px;
+	top: 50%; margin-top: -30px;
 	transform: translateX(-50%);
 }
 #page2 .story_txt p {
 	color: #fff;
 	font-family: 'GodoB';
-	line-height: 30px;
-	font-size: 18px;
+	line-height: 20px;
+	font-size: 14px;
 }
 
 
@@ -825,7 +824,7 @@ bottom: 0;right: 50%; margin-right: -670px; transform: rotate(180deg);}
 
 
 
-
+#fp-nav{display: none;}
 #fp-nav ul li, .fp-slidesNav ul li {
 	display: block;
 	width: 42px;
