@@ -21,6 +21,7 @@
 				menu:"#topMenu",
 				navigation:true,
 				slideNavigation:true,
+				//navigationTooltips: ['Main', 'Story', 'Introduce', 'Store'],
 				afterLoad:function(anchorslink,index){
 					console.log(anchorslink+","+index);
 					
@@ -127,9 +128,9 @@
 			
 				
 				$("#fp-nav li").eq(0).find("span").append("Main");
-				/*$("#fp-nav li").eq(0).find("span").append("<img src='images/01.png'>");*/
+				/*$("#fp-nav li").eq(0).find("span").append("<img src='images/happy_ball.png'>");*/
          $("#fp-nav li").eq(1).find("span").append("Story");
-         $("#fp-nav li").eq(2).find("span").append("Introduce");
+         $("#fp-nav li").eq(2).find("span").append("Intro");
          $("#fp-nav li").eq(3).find("span").append("Store");
          $("#fp-nav li").eq(4).find("span").append("Footer");
 		});

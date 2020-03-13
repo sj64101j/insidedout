@@ -126,6 +126,7 @@ html.fp-enabled,
 .fp-slidesNav.fp-top {
     top: 17px;
 }
+/*
 #fp-nav ul,
 .fp-slidesNav ul {
   margin: 0;
@@ -211,6 +212,7 @@ html.fp-enabled,
 #fp-nav ul li .fp-tooltip.fp-left {
     left: 20px;
 }
+*/
 .fp-auto-height.fp-section,
 .fp-auto-height .fp-slide,
 .fp-auto-height .fp-tableCell{

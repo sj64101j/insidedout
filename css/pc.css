@@ -812,6 +812,7 @@ bottom: 0;right: 50%; margin-right: -670px; transform: rotate(180deg);}
 
 
 
+/*
 
 
 
@@ -866,4 +867,48 @@ bottom: 0;right: 50%; margin-right: -670px; transform: rotate(180deg);}
 	background-position: center;
 	background-repeat: no-repeat;
 }
+*/
+
+#fp-nav{left: 20px;}
+#fp-nav ul li a{
+	display: block;
+	width:42px;height: 42px;
+	background: rgba(255,255,255,0.4);
+	border-radius:42px;transition:1s;
+}
+#fp-nav ul li {margin-bottom: 5px;}
+#fp-nav ul li:nth-child(1) a{background-image: url(../images/happy_ball.png);}
+#fp-nav ul li:nth-child(1) a.active{background-image: url(../images/happy_ball.png);}
+#fp-nav ul li:nth-child(2) a{background-image: url(../images/sad_ball.png);}
+#fp-nav ul li:nth-child(2) a.active{background-image: url(../images/sad_ball.png);}
+#fp-nav ul li:nth-child(3) a{background-image: url(../images/disgust_ball.png);}
+#fp-nav ul li:nth-child(3) a.active{background-image: url(../images/disgust_ball.png);}
+#fp-nav ul li:nth-child(4) a{background-image: url(../images/fear_ball.png);}
+#fp-nav ul li:nth-child(4) a.active{background-image: url(../images/fear_ball.png);}
+#fp-nav ul li:nth-child(5) a{background-image: url(../images/angry_ball.png);}
+#fp-nav ul li:nth-child(5) a.active{background-image: url(../images/angry_ball.png);}
+#fp-nav ul li a {
+	background-size: 32px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#fp-nav ul li a.active{
+	display: block;
+	width:124px;height: 42px;
+	background: rgba(255,255,255,0.4);
+	border-radius:21px;
+	background-size: 32px;
+	background-position: 90%;
+	background-repeat: no-repeat;
+}
+#fp-nav ul li a.active span{text-indent:0px; font-size: 24px; color: #6c2b7d;
+line-height: 40px;padding-left: -60px;opacity: 0;
+animation: txt 1s forwards linear;}
+@keyframes txt {
+	to {padding-left: 20px;opacity: 1;}
+}
+#fp-nav ul li a span{display: block;text-indent:-99999px}
+
+
+
 
