@@ -681,7 +681,8 @@ z-index: 10; border-radius: 10px;display: block;}
 .DVD.active {
 	display: block;
 	width: 100%;/* height: 50%;*/
-	position: absolute; margin-top: -15%;
+	position: absolute; ;
+	left: 50%; transform: translate(-50%,-45%);
 	z-index: 4; opacity: 0;
 	margin-left: 35px;
 	animation: DVD 0.3s 4s forwards linear;
@@ -723,7 +724,7 @@ z-index: 10; border-radius: 10px;display: block;}
 .game.active {
 	display: block;
 	width: 100%; height: 50%; float: left;
-	position: absolute; margin-top: 10%;
+	position: absolute; /*transform: translateY(-0%);*/
 	z-index: 4; opacity: 0;
 	animation: game 0.3s 4s forwards linear;
 }
